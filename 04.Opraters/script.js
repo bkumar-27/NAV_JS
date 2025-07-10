@@ -157,10 +157,14 @@ x++;
 console.log(x);
 
 
+let y = 20;
+console.log(y);
 
 
 
-/*---------------------------
+
+
+/*-------------------------
 
 Here are the **best and most commonly asked examples** of **Equality Operators** in JavaScript, with clear explanations 👇:
 
