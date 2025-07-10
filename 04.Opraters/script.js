@@ -155,3 +155,101 @@ x = x + 1;
 x += 1;
 x++;
 console.log(x);
+
+
+
+
+
+/*---------------------------
+
+Here are the **best and most commonly asked examples** of **Equality Operators** in JavaScript, with clear explanations 👇:
+
+---
+
+## 🔁 **0. Equality Operators in JavaScript**
+
+| Operator | Name              | Checks       | Example       | Result  |
+| -------- | ----------------- | ------------ | ------------- | ------- |
+| `==`     | Loose Equality    | Value        | `5 == "5"`    | ✅ true  |
+| `===`    | Strict Equality   | Value + Type | `5 === "5"`   | ❌ false |
+| `!=`     | Loose Inequality  | Value        | `10 != "10"`  | ❌ false |
+| `!==`    | Strict Inequality | Value + Type | `10 !== "10"` | ✅ true  |
+
+---
+
+### ✅ **Example 1: Loose Equality (`==`)**
+
+```js
+console.log(5 == '5'); // true
+```
+
+> 💡 JavaScript converts the string `'5'` to number `5` before comparing.
+
+---
+
+### ✅ **Example 2: Strict Equality (`===`)**
+
+```js
+console.log(5 === '5'); // false
+```
+
+> 🚫 No type conversion. A number is not strictly equal to a string.
+
+---
+
+### ✅ **Example 3: Loose Inequality (`!=`)**
+
+```js
+console.log(10 != '10'); // false
+```
+
+> Because `10` is loosely equal to `'10'`, `!=` returns false.
+
+---
+
+### ✅ **Example 4: Strict Inequality (`!==`)**
+
+```js
+console.log(10 !== '10'); // true
+```
+
+> Strict comparison fails due to different types.
+
+---
+
+### ✅ **Example 5: Equality with Boolean**
+
+```js
+console.log(true == 1);    // true (boolean coerced to number)
+console.log(false == 0);   // true
+console.log(true === 1);   // false (different types)
+```
+
+---
+
+### ✅ **Example 6: Null & Undefined**
+
+```js
+console.log(null == undefined);  // true (special case)
+console.log(null === undefined); // false
+```
+
+---
+
+## 🎯 Best Practice:
+
+> Always use `===` and `!==` in real-world JavaScript code to **avoid unexpected type coercion**.
+
+---
+
+## 💬 Interview Question:
+
+**Q: What is the difference between `==` and `===` in JavaScript?**
+**A:** `==` checks only value (and does type coercion), while `===` checks both value and type without type conversion.
+
+---
+
+Would you like a **codepen**, **PDF**, or **quiz** for these examples?
+
+*/
+
