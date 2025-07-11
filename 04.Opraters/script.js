@@ -257,3 +257,114 @@ Would you like a **codepen**, **PDF**, or **quiz** for these examples?
 
 */
 
+
+
+
+
+//5.Logical Operators :  &&,||,^
+
+/*
+
+AND => T && T -> T
+OR  => F || F -> F
+XOR  => T^F, F^T ->T
+
+*/
+
+/*
+let inRealation = true;
+let parentsAgreed = false;
+
+if (inRealation && parentsAgreed) {
+	console.log('Get Marry Soon');
+}
+
+else {
+	console.log(`wait until the parents Agreed`)
+}
+	*/
+
+
+let inRealation = true;
+let parentsAgreed = true;
+
+if (inRealation && parentsAgreed) {
+	console.log('Get Marry Soon');       // Get Marry soon bz of AND is 2 condtions True = True
+}
+
+else {
+	console.log(`wait until the parents Agreed`)
+}
+
+
+
+
+// Ternary Operator ?:
+
+/*
+
+syntax: (condition) ? true : false;
+
+
+*/
+/*
+marks = 65
+let message = " ";
+(marks <= 35) ? message = 'You Failed  the Exam' : message = 'You cleared the Exam';
+console.log(message)
+*/
+
+
+marks = 25
+let message = " ";
+(marks <= 35) ? message = 'You Failed  the Exam' : message = 'You cleared the Exam';
+console.log(message)
+
+
+
+// Equality Operator : == , ===
+/*
+a = 10;
+b = 20;    //a= 10 o/p : Both are Equal
+
+if (a == b) {
+
+	console.log('Both are Equal')
+}
+
+else {
+	console.log('Both are Not Equal');
+}
+
+*/
+
+
+a = 10;
+b = '20';
+
+if (a == b) {
+
+	console.log('Both are Equal')
+}
+
+else {
+	console.log('Both are Not Equal');
+}
+
+
+
+
+a = 10;
+b = '20';
+
+if (a === b) {
+
+	console.log('Both are Equal')
+}
+
+else {
+	console.log('Both are Not Equal');
+}
+
+
+
