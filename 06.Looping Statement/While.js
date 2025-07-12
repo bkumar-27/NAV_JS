@@ -139,7 +139,7 @@ while (i <= 5) {
 console.log(result);
 */
 
-
+/*
 result = " ";
 i = 5;
 while (i >= 1) {
@@ -153,3 +153,4 @@ while (i >= 1) {
 	i--;
 }
 console.log(result);
+*/
