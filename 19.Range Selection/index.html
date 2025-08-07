@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Range Select</title>
+    <!-- MDB CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark mb-3">
+      <a href="#" class="navbar-brand">Range Select</a>
+    </nav>
+    <!----- Range Select--------->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header bg-primary text-white">
+              <h3>Select an Amount</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-8">
+                  <input
+                    type="range"
+                    class="form-range"
+                    id="range"
+                    min="5000"
+                    max="500000"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <h3 class="text-danger">
+                    &#8377;
+                    <span id="amount" class="text-primary"></span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MDB JS -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.js"
+    ></script>
+    <!------- Local Js-->
+    <script src="script.js"></script>
+  </body>
+</html>
